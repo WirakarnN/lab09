@@ -74,6 +74,24 @@ body {
     background: #218838;
 }
 
+.view-posts-btn {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.view-posts-btn:hover {
+    background: #2980b9; 
+}
+
 .comments {
     background: #f8f9fa;
     padding: 12px;
